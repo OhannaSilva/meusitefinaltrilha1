@@ -1,0 +1,264 @@
+body {
+	margin:0;
+	display: flex;
+  	flex-direction: column;
+	aling-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #ffffff;
+
+
+
+
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+	width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+/* background do header */
+
+.header {
+	background-image: url("imagens/20240930_171716.jpg");
+	width: 100%;
+  	padding-top: 10px;
+	position: relative;
+    	opacity: 0.8;
+	
+	background-repeat: no-repeat;
+  	background-attachment: relative;
+ 	background-position: 60% 42%; 
+}
+
+/* propriedades do logo */
+.imglogo {
+	height: 500px;
+	width:	500px;
+	opacity: 1.0;
+	outline-color: #2ec4b6;
+	outline-style: solid;
+	box-shadow: 10px 10px 5px #ffbf69;
+	background-color: white;
+	
+
+}
+
+.imglogotex{
+	vertical-align: center;
+	color: black;
+	position: absolute;
+	top: 99%;
+  	left: 35%;
+	justify-content: center;
+	display: block;
+  	transform: translate(-10%, -40%);
+	text-align: center;	
+	padding: 20px;
+}
+
+/* caixa do logo */
+.caixalogo {
+
+	display: flex;
+   	justify-content: center;
+   	align-items: center;
+  	height: 100%;
+
+
+}
+
+
+
+/* Apresentacao */
+.div1 {
+	
+	width: 80%;
+    	display: flex;
+    	justify-content: center;
+   	align-items: center;
+    	flex-direction: column;
+	padding-top: 50px;
+	background: linear-gradient(to bottom, #ff9f1c 0%, #ffbf69 56%);
+	height: 80%;
+	margin: auto;
+  	
+}
+
+.titulodescricao {
+padding-top: 50px;
+font-size: 40px;
+
+}
+
+.descricaosite {
+	color: white;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	font-family: "Anton SC", serif;
+  	font-weight: 300;
+  	font-style: normal;
+	font-size: 30px;
+
+
+}
+
+/* galeria */
+.div2 {
+	background-color: #cbf3f0;
+
+
+	display: flex;
+    	justify-content: center;
+   	align-items: center;
+    	flex-direction: column;
+	padding-top: 50px;
+	height: 80%;
+	margin: auto;
+	padding: 5px;
+
+
+}
+
+
+.flex-container {
+  display: flex;
+justify-content: space-around;
+padding: 5px;
+}
+
+.galeria {
+display:grid;
+grid-template-columns: 200px 200px 200px;
+padding: 5px;
+justify-content: center;
+
+
+
+}
+
+.galeriaimg {
+
+
+width: 100%;
+  height: auto;
+
+}
+
+
+/* video */
+.div3 {
+
+background-color: #2ec4b6;
+width: 80%;
+    	display: flex;
+    	justify-content: center;
+   	align-items: center;
+    	flex-direction: column;
+	padding-top: 50px;
+	height: 80%;
+	margin: auto;
+	
+
+}
+/* linkes externos de outros video */
+
+.div4 {
+	width: 80%;
+    	display: flex;
+    	justify-content: center;
+   	align-items: center;
+    	flex-direction: column;
+	padding-top: 50px;
+	height: 80%;
+	margin: auto;
+	background-color: purple;
+
+
+}
+
+/* mapa */
+
+.div5 {
+	width: 80%;
+    	display: flex;
+    	justify-content: center;
+   	align-items: center;
+    	flex-direction: column;
+	padding-top: 50px;
+	height: 80%;
+	margin: auto;
+
+	
+
+background-color: yellow;
+
+
+}
+
+/* formulario */
+
+.div6 {
+
+	width: 80%;
+    	display: flex;
+    	justify-content: center;
+   	align-items: center;
+    	flex-direction: column;
+	padding-top: 50px;
+	height: 80%;
+	margin: auto;
+
+	background-color: yellow;
+
+
+}
+
+
+/* rodape */
+.rodape {
+
+	width: 80%;
+    	display: flex;
+    	justify-content: center;
+   	align-items: center;
+    	flex-direction: column;
+	padding-top: 50px;
+	height: 80%;
+	margin: auto;
+	backgroun-color: pink;
+
+
+}
